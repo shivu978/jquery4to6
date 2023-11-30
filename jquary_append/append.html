@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>append</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script>
+    <script>
+
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#demo").append("<b>&nbsp;pandya</b>");
+            })
+        })
+        </script>
+</head>
+<body>
+    <center>
+        <b id="demo">vivu</b>
+        <br><br>
+        <button type="button" id="btn">append surname>>> </button>
+    </center>
+</body>
+</html>
